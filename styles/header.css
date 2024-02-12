@@ -1,0 +1,56 @@
+.header__container {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+    .nav__container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+        .theme {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+
+        .moon {
+            background-image: url("../images/moon.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .sun {
+            background-image: url("../images/sun.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .btn {
+            display: none;
+        }
+
+        .pt {
+            background-image: url("../images/brasil.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .eng {
+            background-image: url("../images/eng.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .nav__container-link {
+            text-decoration: none;
+            font-family: var(--fontRoboto);
+            color: var(--font-color);
+            font-weight: 500;
+        }
+
+        
