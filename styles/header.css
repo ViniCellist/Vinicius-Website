@@ -13,7 +13,7 @@
         justify-content: space-evenly;
     }
 
-        .theme {
+        .theme, .lang {
             width: 1.5rem;
             height: 1.5rem;
         }
@@ -48,7 +48,6 @@
 
         .nav__container-link {
             text-decoration: none;
-            font-family: var(--fontRoboto);
             color: var(--font-color);
             font-weight: 500;
         }
