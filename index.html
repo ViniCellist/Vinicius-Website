@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark-mode">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,12 +12,15 @@
 <body>
     <header class="header__container">
         <nav class="nav__container">
-            <a href="" class="nav__container-link">Sobre Mim</a>
-            <a href="" class="nav__container-link">Projetos</a>
-            <a href="" class="nav__container-link">Currículo</a>
-            <a href="" class="nav__container-link">Fale Comigo</a>
-            <button class="nav__container-button">Modo Escuro</button>
-            <button class="nav__container-lang">English</button>
+            <a href="#" class="nav__container-link">Sobre Mim</a>
+            <a href="#" class="nav__container-link">Projetos</a>
+            <a href="#" class="nav__container-link">Currículo</a>
+            <a href="#" class="nav__container-link">Fale Comigo</a>
+            <input type="button" id="btn-ld" class="btn">
+            <label for="btn-ld" class="theme moon"></label>
+
+            <input type="button" id="btn-lang" class="btn">
+            <label for="btn-lang" class="theme pt"></label>
         </nav>
     </header>
 
@@ -67,5 +70,6 @@
             <div></div>
         </section>
     </footer>
+    <script src="app/script.js"></script>
 </body>
 </html>
