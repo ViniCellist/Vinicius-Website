@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 :root {
-    
+   /*Light Mode*/
+   --bg-light: #EEEDEB;
+   --grad-l-one: #E0CCBE;
+   --grad--ltwo: #747264;
+   --font-l-color: #3C3633;
+
+   /*Dark Mode*/
+   --bg-dark: #070F2B;
+   --grad-d-one: #1B1A55;
+   --grad-d-two: #535C91;
+   --font-d-color: #9290C3;
+
+   /*Font*/
+   --fontRoboto: 'Roboto', sans-serif;
 }
