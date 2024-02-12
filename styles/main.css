@@ -2,3 +2,15 @@
     width: 100%;
     height: auto;
 }
+
+    .container__about-me {
+        width: 100%;
+        height: auto;
+        background: linear-gradient(to top, var(--grad-one), var(--grad-two));
+    }
+
+    .about-me__title {
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 1rem;
+    }
