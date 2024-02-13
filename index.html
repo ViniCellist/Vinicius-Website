@@ -12,10 +12,15 @@
 <body>
     <header class="header__container">
         <nav class="nav__container">
-            <a href="#" class="nav__container-link">Sobre Mim</a>
-            <a href="#" class="nav__container-link">Projetos</a>
-            <a href="#" class="nav__container-link">Currículo</a>
-            <a href="#" class="nav__container-link">Fale Comigo</a>
+            <a href="#" class="nav__container-link portuguese">Sobre Mim</a>
+            <a href="#" class="nav__container-link english hidden">About Me</a>
+            <a href="#" class="nav__container-link portuguese">Projetos</a>
+            <a href="#" class="nav__container-link english hidden">Projects</a>
+            <a href="#" class="nav__container-link portuguese">Técnologias</a>
+            <a href="#" class="nav__container-link english hidden">Technologies</a>
+            <a href="#" class="nav__container-link portuguese">Fale Comigo</a>
+            <a href="#" class="nav__container-link english hidden">Find Me</a>
+
             <input type="button" id="btn-ld" class="btn">
             <label for="btn-ld" class="theme moon"></label>
 
@@ -26,11 +31,38 @@
 
     <main class="main__container">
         <section class="container__about-me">
-            <h1 class="about-me__title">Olá, bem-vindo ao meu site!</h1>
-            <h2>Sobre Mim</h2>
-            <article>
-                <div></div>
-                <div></div>
+            <h1 class="about-me__title portuguese">Olá, bem-vindo ao meu site!</h1>
+            <h1 class="about-me__title english hidden">Hello, welcome to my website!</h1>
+            <h2 class="about-me__subtitle portuguese">Sobre Mim</h2>
+            <h2 class="about-me__subtitle english hidden">About me</h2>
+            <article class="article__about-me">
+                <div class="article__picture"></div>
+                
+                <ul class="article__ul" type="square">
+
+                    <li class="article__li portuguese">Me chamo Vinícius Duarte!</li>
+                    <li class="article__li english hidden">My name is Vinícius Duarte!</li>
+
+                    <li class="article__li portuguese">Estou á procura do meu primeiro emprego como desenvolvedor Front-end!</li>
+                    <li class="article__li english hidden">I'm looking for my first job as a Front-end Dev!</li>
+
+                    <li class="article__li portuguese">Atualmente estudando Fullstack na Alura e Curso em Video</li>
+                    <li class="article__li english hidden">Studying Fullstack at Alura and Curso em Video.</li>
+
+                    <li class="article__li portuguese">Vamos conversar sobre Games, Ciência e Animes!</li>
+                    <li class="article__li english hidden">Let's talk about Games, Science and Animes!</li>
+
+                    <li class="article__li portuguese">Estudante de música desde criança, apaixonado na família das cordas: Violino e Violoncelo!</li>
+                    <li class="article__li english hidden">Music student since I was a kid, in love with string-bowed family: Violin and Cello!</li>
+
+                    <li class="article__li portuguese">Me siga nas minhas redes sociais!</li>
+                    <li class="article__li english hidden">Follow me on my social medias!</li>
+
+                    <li class="article__li-link">
+                        <a href="files/CV.pdf" target="_blank"><img src="images/download.png" alt="Downdload Curriculum Vitae" class="download"></a>
+                    </li>
+
+                </ul>
             </article>
         </section>
 
