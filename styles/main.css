@@ -2,19 +2,65 @@
     width: 100%;
     height: auto;
 }
-
+    /*about-me section*/
     .container__about-me {
         width: 100%;
         height: auto;
         background: linear-gradient(to top, var(--grad-one), var(--grad-two));
     }
 
-    .about-me__title {
-        font-size: 1.5rem;
-        text-align: center;
-        padding: 1rem;
-    }
+        .about-me__title {
+            font-size: 1.9rem;
+            text-align: center;
+            padding: 1rem 0.2rem;
+            color: var(--font-color);
+            font-weight: 700;
+        }
 
-    .hidden {
-        display: none;
-    }
+        .about-me__subtitle {
+            font-size: 1.5rem;
+            font-weight: 500;
+            text-align: center;
+            padding: 1rem;
+            color: var(--font-color);
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .article__about-me {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .article__picture {
+                width: 20rem;
+                height: 20rem;
+                border: 0.2rem solid var(--bg-color);
+                border-radius: 50%;
+                background-image: url("../images/eu.jpeg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .article__ul {
+                padding: 1rem;
+                font-weight: 400;
+                color: var(--font-color);
+            }
+
+                .article__li {
+                    margin: 0.5rem;
+                }
+
+                    .article__li-link {
+                        text-align: center;
+                    }
+
+                    .download {
+                        width: 4rem;
+                    }
+        
