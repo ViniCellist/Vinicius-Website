@@ -31,4 +31,27 @@ lang.addEventListener('click', () => {
         lang.classList.remove('eng');
         lang.classList.add('pt');
     };
+    changeLang();
+    
 });
+
+function changeLang() {
+    const portuguese = document.querySelectorAll(".portuguese");
+    const english = document.querySelectorAll(".english");
+
+    portuguese.forEach(function(portText) {
+        if (!portText.classList.contains('hidden')) {
+            portText.classList.add('hidden');
+        } else {
+            portText.classList.remove('hidden');
+        }
+    });
+
+    english.forEach(function(engText){
+        if (!engText.classList.contains('hidden')) {
+            engText.classList.add('hidden');
+        } else {
+            engText.classList.remove('hidden');
+        }
+    });
+};
