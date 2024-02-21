@@ -12,14 +12,12 @@
 <body>
     <header class="header__container">
         <nav class="nav__container">
-            <a href="#" class="nav__container-link portuguese">Sobre Mim</a>
-            <a href="#" class="nav__container-link english hidden">About Me</a>
-            <a href="#" class="nav__container-link portuguese">Projetos</a>
-            <a href="#" class="nav__container-link english hidden">Projects</a>
-            <a href="#" class="nav__container-link portuguese">Técnologias</a>
-            <a href="#" class="nav__container-link english hidden">Technologies</a>
-            <a href="#" class="nav__container-link portuguese">Fale Comigo</a>
-            <a href="#" class="nav__container-link english hidden">Find Me</a>
+            <a href="#projetos" class="nav__container-link portuguese">Projetos</a>
+            <a href="#projetos" class="nav__container-link english hidden">Projects</a>
+            <a href="#tech" class="nav__container-link portuguese">Técnologias</a>
+            <a href="#tech" class="nav__container-link english hidden">Technologies</a>
+            <a href="#me" class="nav__container-link portuguese">Fale Comigo</a>
+            <a href="#me" class="nav__container-link english hidden">Find Me</a>
 
             <input type="button" id="btn-ld" class="btn">
             <label for="btn-ld" class="theme moon"></label>
@@ -36,7 +34,9 @@
             <h2 class="about-me__subtitle portuguese">Sobre Mim</h2>
             <h2 class="about-me__subtitle english hidden">About me</h2>
             <article class="article__about-me">
-                <div class="article__picture"></div>
+                <div class="article__picture">
+                    <img src="images/eu.jpeg" alt="minha foto">
+                </div>
                 
                 <ul class="article__ul">
                     <li class="article__li portuguese">Me chamo Vinícius Duarte! &#x1F44B</li>
@@ -63,7 +63,7 @@
             </article>
         </section>
 
-        <section class="container__projects">
+        <section class="container__projects" id="projetos">
             <h2 class="projects__title portuguese">Projetos</h2>
             <h2 class="projects__title english hidden">Projects</h2>
 
@@ -87,7 +87,7 @@
             </div>
         </section>
 
-        <section class="container__tech">
+        <section class="container__tech" id="tech">
             <h2 class="tech__title portuguese">Técnologias</h2>
             <h2 class="tech__title english hidden">Technologies</h2>
             <div class="tech__languages">
@@ -110,7 +110,7 @@
         </section>
     </main>
 
-    <footer class="footer__container">
+    <footer class="footer__container" id="me">
         <section class="container__social">
             <a href="https://github.com/ViniCellist" target="_blank" class="social-links" id="github"></a>
             <a href="https://www.linkedin.com/in/viniciussouzaduarte/" target="_blank" class="social-links" id="linkedin"></a>
