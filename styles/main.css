@@ -13,7 +13,7 @@
         .about-me__title {
             font-size: 1.9rem;
             text-align: center;
-            padding: 1rem 0.2rem;
+            padding: 1rem 0;
             color: var(--font-color);
             font-weight: 700;
         }
@@ -22,7 +22,7 @@
             font-size: 1.5rem;
             font-weight: 500;
             text-align: center;
-            padding: 1rem;
+            padding: 1rem 0;
             color: var(--font-color);
         }
 
@@ -40,11 +40,14 @@
             .article__picture {
                 width: 20rem;
                 height: 20rem;
+            }
+            
+            .article__picture img {
+                width: 20rem;
+                height: 20rem;
                 border: 0.2rem solid var(--bg-color);
                 border-radius: 50%;
-                background-image: url("../images/eu.jpeg");
-                background-repeat: no-repeat;
-                background-size: cover;
+                overflow: hidden;
             }
 
             .article__ul {
@@ -198,3 +201,26 @@
                 background-repeat: no-repeat;
                 background-size: cover;
             }
+
+@media screen and (min-width: 760px) and (max-width: 1040px) {
+    .article__about-me {
+        display: flex;
+        flex-direction: row;
+        padding: 1rem 0;
+    }
+
+    .article__picture {
+        width: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .article__ul {
+        width: 50%;
+    }
+
+    .article__li {
+        font-size: 1.4rem;
+    }
+}
