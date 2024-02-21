@@ -52,4 +52,13 @@
             font-weight: 500;
         }
 
-        
+@media screen and (min-width: 760px) and (max-width: 1040px) {
+    .theme, .lang {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .nav__container-link {
+        font-size: 1.5rem;
+    }
+}
