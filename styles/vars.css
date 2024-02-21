@@ -10,6 +10,7 @@
    --grad-one: #E0CCBE;
    --grad-two: #747264;
    --font-color: #3C3633;
+   --link: #201658;
 }
 
 .dark-mode:root {
@@ -17,4 +18,5 @@
    --grad-one: #1B1A55;
    --grad-two: #535C91;
    --font-color: #d0d0e2;
+   --link: #FFF67E;
 }
