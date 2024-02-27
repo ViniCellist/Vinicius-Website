@@ -223,4 +223,16 @@
     .article__li {
         font-size: 1.4rem;
     }
+
+    .projects__iframe {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 2rem 0;
+    }
+
+    #cordel {
+        flex-direction: row-reverse;
+    }
 }
