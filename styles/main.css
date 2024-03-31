@@ -158,6 +158,12 @@
             padding: 1rem 0;
         }
 
+        .tech__db {
+            width: 100%;
+            height: auto;
+            padding: 1rem 0;
+        }
+
 /*footer container*/
 
 .footer__container {
